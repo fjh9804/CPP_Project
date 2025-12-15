@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-//¶¨ÒåÈÕÖ¾µÈ¼¶
+//å®šä¹‰æ—¥å¿—ç­‰çº§
 enum class LogLevel {
 	DEBUG,
 	INFO,
@@ -10,7 +10,7 @@ enum class LogLevel {
 	ERROR
 };
 
-//¶¨ÒåÈÕÖ¾Àà
+//å®šä¹‰æ—¥å¿—ç±»
 class Logger {
 private:
 	LogLevel logLv;
