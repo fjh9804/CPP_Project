@@ -14,5 +14,5 @@ enum class LogLevel {
 class Logger {
 private:
 	LogLevel logLv;
-	std::vector<std::shared_ptr<>>
+	std::vector<std::shared_ptr<>>;
 };
