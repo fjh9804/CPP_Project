@@ -1,4 +1,6 @@
 #include <iostream>
+#include "./client/client_main.h"
+#include "./server/srv_main.h"
 
 enum class INIT_TYPE{
     CLIENT = 1,
@@ -6,15 +8,27 @@ enum class INIT_TYPE{
 };
 
 int main(void){
-    INIT_TYPE init_selection;
-    std::cin >> init_selection;
+	INIT_TYPE init_selection;
+    int i;
+
+    std::cin >> i;
+	init_selection = static_cast<INIT_TYPE>(i);
     
-    if(init_selection == SERVER){
-        start_server(10086);
-    }
-    else if(init_selection == CLIENT){
-        start_client(void);  
-    }
+    switch(init_selection){
+		case INIT_TYPE::SERVER:
+		start_server(10086);break;
+
+		case INIT_TYPE::CLIENT:
+		start_client();break;
+		
+		default:
+		std::cout << "Input error!" << std::endl;
+	}
+        
+
+
+          
+
 
 	return 0;
 }

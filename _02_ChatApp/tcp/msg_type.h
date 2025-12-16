@@ -15,4 +15,4 @@ struct ChatMesage {
     char receiverId[32];
     int contentSize;
     char msg[128];
-}
+};

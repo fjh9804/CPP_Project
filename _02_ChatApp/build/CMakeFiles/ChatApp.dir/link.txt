@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ChatApp.dir/client/client_main.cpp.o CMakeFiles/ChatApp.dir/main.cpp.o CMakeFiles/ChatApp.dir/server/srv_main.cpp.o CMakeFiles/ChatApp.dir/tcp/init_socket.cpp.o -o ChatApp 

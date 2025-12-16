@@ -1,7 +1,9 @@
-#include <iostream>
+#include "srv_main.h"
+#include "../tcp/init_socket.h"
 
 void start_server(int port){
-    int server_fd = setup_socket(port);
+    std::cout << "Server start.\n";
 
+    int server_fd = setup_socket(port);
 
 }
