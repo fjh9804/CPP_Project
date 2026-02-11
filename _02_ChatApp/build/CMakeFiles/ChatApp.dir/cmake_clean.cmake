@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ChatApp.dir/link.d"
   "CMakeFiles/ChatApp.dir/client/client_main.cpp.o"
   "CMakeFiles/ChatApp.dir/client/client_main.cpp.o.d"
   "CMakeFiles/ChatApp.dir/main.cpp.o"
   "CMakeFiles/ChatApp.dir/main.cpp.o.d"
   "CMakeFiles/ChatApp.dir/server/srv_main.cpp.o"
   "CMakeFiles/ChatApp.dir/server/srv_main.cpp.o.d"
+  "CMakeFiles/ChatApp.dir/server/thread.cpp.o"
+  "CMakeFiles/ChatApp.dir/server/thread.cpp.o.d"
   "CMakeFiles/ChatApp.dir/tcp/init_socket.cpp.o"
   "CMakeFiles/ChatApp.dir/tcp/init_socket.cpp.o.d"
   "ChatApp"

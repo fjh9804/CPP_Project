@@ -1,7 +1,8 @@
-CMakeFiles/ChatApp.dir/main.cpp.o: \
- /root/cpp_project/CPP_Project/_02_ChatApp/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15/iostream \
- /usr/include/c++/15/bits/requires_hosted.h \
+CMakeFiles/ChatApp.dir/server/thread.cpp.o: \
+ /root/cpp_project/CPP_Project/_02_ChatApp/server/thread.cpp \
+ /usr/include/stdc-predef.h \
+ /root/cpp_project/CPP_Project/_02_ChatApp/server/thread.h \
+ /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -160,6 +161,20 @@ CMakeFiles/ChatApp.dir/main.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc \
- /root/cpp_project/CPP_Project/_02_ChatApp/./client/client_main.h \
- /root/cpp_project/CPP_Project/_02_ChatApp/./server/srv_main.h
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/thread \
+ /usr/include/c++/15/bits/std_thread.h \
+ /usr/include/c++/15/bits/unique_ptr.h \
+ /usr/include/c++/15/bits/this_thread_sleep.h \
+ /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
+ /usr/include/c++/15/cstdint \
+ /usr/lib/gcc/aarch64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/15/limits /usr/include/c++/15/ctime \
+ /usr/include/c++/15/bits/parse_numbers.h /usr/include/c++/15/vector \
+ /usr/include/c++/15/bits/stl_uninitialized.h \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/mutex \
+ /usr/include/c++/15/bits/std_mutex.h \
+ /usr/include/c++/15/bits/unique_lock.h

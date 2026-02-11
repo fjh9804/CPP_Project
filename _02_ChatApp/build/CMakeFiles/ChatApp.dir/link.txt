@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/ChatApp.dir/client/client_main.cpp.o CMakeFiles/ChatApp.dir/main.cpp.o CMakeFiles/ChatApp.dir/server/srv_main.cpp.o CMakeFiles/ChatApp.dir/tcp/init_socket.cpp.o -o ChatApp 
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/ChatApp.dir/link.d CMakeFiles/ChatApp.dir/client/client_main.cpp.o CMakeFiles/ChatApp.dir/main.cpp.o CMakeFiles/ChatApp.dir/server/srv_main.cpp.o CMakeFiles/ChatApp.dir/server/thread.cpp.o CMakeFiles/ChatApp.dir/tcp/init_socket.cpp.o -o ChatApp
